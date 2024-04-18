@@ -1,6 +1,6 @@
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) HTML5
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) CSS3
-![Angular](https://img.shields.io/badge/Angular-FF5733?style=for-the-badge&logo=angular&logoColor=white) Angular
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-FF5733?style=for-the-badge&logo=angular&logoColor=white)
 # Angular Way
 
 Welcome to Angular Way, your guide to start in Angular 17 and building stunning web applications with ease! 🚀
