@@ -1,27 +1,33 @@
-# Angularway
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) HTML5
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) CSS3
+![Angular](https://img.shields.io/badge/Angular-FF5733?style=for-the-badge&logo=angular&logoColor=white) Angular
+# Angular Way
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+Welcome to Angular Way, your guide to start in Angular 17 and building stunning web applications with ease! 🚀
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Angular Way is a repository dedicated to showcasing the fundamentals of Angular development. Whether you're a novice looking to dive into Angular or an experienced developer seeking to enhance your skills, this project provides a comprehensive resource to guide you through the Angular ecosystem.
 
-## Code scaffolding
+## Purpose
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The primary goal of Angular Way is twofold:
 
-## Build
+1. **Educational Resource**: Explore step-by-step tutorials, code examples, and best practices to understand the core concepts of Angular development.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Features
 
-## Running unit tests
+- **Clear Tutorials**: Dive into well-structured tutorials that cover essential Angular concepts, from component creation to advanced routing techniques.
+- **Code Examples**: Access a wealth of code snippets and examples to understand how to implement Angular features effectively.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Access the Web Application
 
-## Running end-to-end tests
+Visit [Angular Way Web Application](https://daniloasdotcom.github.io/angularway) to see the application live!
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Creator and maintainer of Angular Way
 
-## Further help
+- [daniloas.com](https://daniloas.com/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+Ready to embark on your journey to Angular mastery? Let's start coding! 💻🎉
