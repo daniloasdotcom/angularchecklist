@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { NgOptimizedImage } from '@angular/common';
 import { VideoComponent } from '../video/video.component';
@@ -12,5 +12,11 @@ import { VideoComponent } from '../video/video.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  @ViewChild('video') video?: ElementRef;
+
+  toggleVideo(){
+    const video: HTMLVideoElement = this.video?.nativeElement;
+    video.paused ? video.play() : video.pause();
+  }
 
 }
