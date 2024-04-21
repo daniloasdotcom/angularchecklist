@@ -1,52 +1,73 @@
 /* Define a classe da seção principal */
 .main-section {
-    display: flex; /* Usa o flexbox para alinhar os itens */
-    justify-content: center; /* Alinha os itens horizontalmente no centro */
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    width: 100%; /* Define a largura da seção */
-    flex-direction: column; /* Adicionando a direção de coluna para alinhar o novo texto abaixo */
+    display: flex;
+    /* Usa o flexbox para alinhar os itens */
+    justify-content: center;
+    /* Alinha os itens horizontalmente no centro */
+    align-items: center;
+    /* Define a largura da seção */
+    flex-direction: column;
+    /* Adicionando a direção de coluna para alinhar o novo texto abaixo */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Define a classe para o conteúdo dentro da seção */
 .content {
-    display: flex; /* Usa o flexbox para alinhar os itens */
-    justify-content: center; /* Alinha os itens horizontalmente no centro */
-    align-items: flex-start; /* Alinha os itens verticalmente no topo */
-    gap: 20px; /* Define o espaçamento entre a imagem e o texto */
+    display: flex;
+    /* Usa o flexbox para alinhar os itens */
+    justify-content: center;
+    /* Alinha os itens horizontalmente no centro */
+    align-items: flex-start;
+    /* Alinha os itens verticalmente no topo */
+    gap: 20px;
+    /* Define o espaçamento entre a imagem e o texto */
 }
 
 /* Define a classe para o texto */
 .text {
-    text-align: left; /* Alinha o texto à esquerda */
+    text-align: center;
+    /* Alinha o texto à esquerda */
 }
 
 /* Define o estilo para a tag <span> dentro da seção principal */
 .main-section span {
-    font-size: 20px; /* Define o tamanho da fonte */
-    font-weight: 700; /* Define o peso da fonte */
-    font-family: "Roboto", sans-serif; /* Define a família da fonte */
+    font-size: 20px;
+    /* Define o tamanho da fonte */
+    font-weight: 700;
+    /* Define o peso da fonte */
+    font-family: "Roboto", sans-serif;
+    /* Define a família da fonte */
 }
 
 /* Define o estilo para a tag <h1> dentro da seção principal */
 .main-section h1 {
-    font-size: 20px; /* Define o tamanho da fonte */
-    font-weight: 900; /* Define o peso da fonte */
+    font-size: 20px;
+    /* Define o tamanho da fonte */
+    font-weight: 900;
+    /* Define o peso da fonte */
 }
 
 .learn-text {
-    margin-top: 20px; /* Adicionando margem acima do novo texto */
+    margin-top: 20px;
+    /* Adicionando margem acima do novo texto */
     font-size: 16px;
-    color: black; /* Alterando a cor do texto */
+    color: black;
+    /* Alterando a cor do texto */
 }
 
 /* Define as regras de mídia para telas maiores */
 @media (min-width: 768px) {
     .content {
-        flex-direction: row; /* Altera a direção do flexbox para linha */
-        align-items: center; /* Alinha os itens verticalmente no centro */
+        flex-direction: row;
+        /* Altera a direção do flexbox para linha */
+        align-items: center;
+        /* Alinha os itens verticalmente no centro */
     }
 }
 
-
-
-
+/* Classe oriunda do Component Collapsible */
+.collapsible-title {
+    color: black;
+    text-align: center;
+}

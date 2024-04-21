@@ -3,13 +3,14 @@ import { HeaderComponent } from '../header/header.component';
 import { NgOptimizedImage } from '@angular/common';
 import { VideoComponent } from '../video/video.component';
 import { Youtube02Component } from '../youtube02/youtube02.component';
-import { Youtube01Component } from '../youtube01/youtube01.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { CollapsibleComponent } from '../collapsible/collapsible.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, NgOptimizedImage, VideoComponent, Youtube02Component, Youtube01Component, YouTubePlayerModule],
+  imports: [HeaderComponent, NgOptimizedImage, VideoComponent, Youtube02Component, YouTubePlayerModule, CollapsibleComponent, FooterComponent],
   providers: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

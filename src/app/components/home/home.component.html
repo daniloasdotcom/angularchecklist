@@ -3,13 +3,24 @@
     <section class="main-section">
         <div class="content">
             <div class="text">
-                <span>ANGULAR WAY</span>
+                <span>WAY</span>
                 <h1>An simple way for your pratical angular learning</h1>
             </div>
-            <img ngSrc="./assets/angular.png" width="125" height="125" alt="Angular Image">
         </div>
-        <p class="learn-text">Install Node.js</p>
-        <app-youtube01></app-youtube01>
+        <p class="learn-text"></p>
+        <app-collapsible>
+            <div title class="collapsible-title">Primeira Lição</div>
+            <p class="learn-text">Neste vídeo você irá aprender nossa primeira lição</p>
+            <app-youtube02></app-youtube02>
+        </app-collapsible>
+        <p class="learn-text"></p>
+        <app-collapsible>
+            <div title class="collapsible-title">Segunda Lição</div>
+            <p class="learn-text">Neste vídeo você irá aprender nossa primeira lição</p>
+            <app-youtube02></app-youtube02>
+        </app-collapsible>
+        <p class="learn-text"></p>
+        <!--
         <p class="learn-text">Install Node.js</p>
         <app-youtube02></app-youtube02>
         <p class="learn-text">Install Node.js</p>
@@ -22,5 +33,7 @@
         <app-video></app-video>
         <p class="learn-text">Run your First Project</p>
         <app-video></app-video>
+        -->
     </section>
 </main>
+<app-footer></app-footer>
