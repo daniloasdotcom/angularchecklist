@@ -1,0 +1,39 @@
+.collapsible {
+    cursor: pointer;
+    border: none;
+    padding: 30px;
+    background: #e9e9e9; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.collapsible button {
+    border: none;
+    padding: 10px 20px; /* Adapte o preenchimento conforme necessário */
+    background: brown;
+    font: inherit;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adiciona espaço entre o botão e o conteúdo */
+    width: fit-content; /* Ajusta a largura do botão ao tamanho do conteúdo */
+}
+
+.collapsible .content {
+    display: none;
+}
+
+.collapsible .content.active {
+    display: block;
+}
+
+/* Estilos para dispositivos menores, como smartphones */
+@media screen and (max-width: 768px) {
+    .collapsible {
+        padding: 20px; /* Reduz o preenchimento para dispositivos menores */
+    }
+
+    .collapsible button {
+        padding: 8px 16px; /* Reduz o preenchimento do botão para dispositivos menores */
+        font-size: 14px; /* Reduz o tamanho da fonte do botão para dispositivos menores */
+    }
+}
