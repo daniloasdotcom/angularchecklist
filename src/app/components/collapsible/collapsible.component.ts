@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 
 export class CollapsibleComponent {
   @Input() title: string = '';
+  @Input() text: string = '';
   mostrarConteudo: boolean = false;
 
   toggleConteudo(): void {

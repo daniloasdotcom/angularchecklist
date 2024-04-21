@@ -71,3 +71,15 @@
     color: black;
     text-align: center;
 }
+
+/* Classe oriunda do Component Collapsible */
+.collapsible-text {
+    color: black;
+    text-align: justify;
+}
+
+/* Classe oriunda do Component Collapsible */
+.collapsible-video {
+    align-items: center;
+    margin: 0 auto;
+}
