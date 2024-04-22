@@ -22,4 +22,15 @@ export class HomeComponent {
     const video: HTMLVideoElement = this.video?.nativeElement;
     video.paused ? video.play() : video.pause();
   }
+
+  downloadEbook() {
+    // Lógica para baixar o eBook
+    // Por exemplo:
+    const link = document.createElement('a');
+    link.href = './assets/EbookAngularWay.pdf';
+    link.download = 'EbookAngularWay.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 }
