@@ -1,3 +1,8 @@
+body{
+    background-color: #f6f6f6;
+    margin: 0px; /* Remover margens padrão */
+}
+
 /* Define a classe da seção principal */
 .main-section {
     display: flex;
@@ -8,8 +13,7 @@
     /* Define a largura da seção */
     flex-direction: column;
     /* Adicionando a direção de coluna para alinhar o novo texto abaixo */
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: #f6f6f6;
 }
 
 /* Define a classe para o conteúdo dentro da seção */
