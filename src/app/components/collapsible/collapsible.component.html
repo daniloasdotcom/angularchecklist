@@ -1,6 +1,6 @@
 <div class="collapsible">
     <ng-content select="[title]"></ng-content>
-    <button (click)="toggleConteudo()">Mostrar/Esconder</button>
+    <button (click)="toggleConteudo()">Show/Hide</button>
     <div *ngIf="mostrarConteudo">
         <div class="collapsible-content">
             <ng-content select="[text]"></ng-content>

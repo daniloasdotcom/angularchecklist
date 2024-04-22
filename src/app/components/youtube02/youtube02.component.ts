@@ -38,9 +38,8 @@ export class Youtube02Component {
       this.height = 150; // Altura reduzida para dispositivos móveis
       this.width = 300;  // Largura reduzida para dispositivos móveis
     } else {
-      this.height = 200; // Altura padrão para telas maiores que 768 pixels
-      this.width = 400;  // Largura padrão para telas maiores que 768 pixels
+      this.height = 300; // Altura padrão para telas maiores que 768 pixels
+      this.width = 600;  // Largura padrão para telas maiores que 768 pixels
     }
   }
-
 }
