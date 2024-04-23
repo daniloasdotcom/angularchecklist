@@ -81,9 +81,11 @@
 /* Classe oriunda do Component Collapsible */
 .collapsible-text {
     color: black;
+    margin-bottom: 10px;
     text-align: justify;
     font-family: CodePro;
     font-size: 15px;
+    line-height: 2.0; 
 }
 
 /* Classe oriunda do Component Collapsible */
@@ -94,7 +96,7 @@
 
 
 .download-button {
-    background-color: #4CAF50; /* Cor de fundo do botão */
+    background: linear-gradient(45deg, #ff002c, #eb00b7, #b910f3);
     border: none;
     color: white; /* Cor do texto do botão */
     padding: 15px 32px; /* Espaçamento interno (altura x largura) */
