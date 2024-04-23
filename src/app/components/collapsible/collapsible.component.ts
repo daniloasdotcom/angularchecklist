@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,10 +9,15 @@ import { CommonModule } from '@angular/common';
   styleUrl: './collapsible.component.css'
 })
 
-export class CollapsibleComponent {
+export class CollapsibleComponent implements OnInit {
   @Input() title: string = '';
   @Input() text: string = '';
   mostrarConteudo: boolean = false;
+  isMobile: boolean = false;
+
+  ngOnInit() {
+    this.isMobile = window.innerWidth <= 768; // Define se é um dispositivo móvel
+  }
 
   toggleConteudo(): void {
     this.mostrarConteudo = !this.mostrarConteudo;
