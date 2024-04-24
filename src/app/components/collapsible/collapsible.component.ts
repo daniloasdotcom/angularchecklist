@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 
 export class CollapsibleComponent implements OnInit {
   @Input() title: string = '';
+  @Input() subtitle: string = '';
   @Input() text: string = '';
   mostrarConteudo: boolean = false;
   isMobile: boolean = false;

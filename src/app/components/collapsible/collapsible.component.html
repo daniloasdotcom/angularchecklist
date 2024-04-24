@@ -1,5 +1,6 @@
 <div class="collapsible" [ngStyle]="{'width': isMobile ? '300px' : (mostrarConteudo ? '600px' : '300px')}">
     <ng-content select="[title]"></ng-content>
+    <ng-content select="[subtitle]"></ng-content>
     <button (click)="toggleConteudo()">Show/Hide</button>
     <div *ngIf="mostrarConteudo" class="collapsible-content">
         <ng-content select="[text]"></ng-content>
