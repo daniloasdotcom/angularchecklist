@@ -132,9 +132,14 @@ ol {
     line-height: 1.5;
     /* Set line-height to 1.5 */
 }
+
+ul {
+    line-height: 1.5;
+    /* Set line-height to 1.5 */
+}
 .code-container {
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     overflow-x: auto;
     /* Adiciona uma barra de rolagem horizontal caso necessário */
