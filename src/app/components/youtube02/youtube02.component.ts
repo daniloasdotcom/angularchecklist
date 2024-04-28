@@ -9,11 +9,11 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
   styleUrl: './youtube02.component.css'
 })
 export class Youtube02Component {
-  //  videoUrl = 'https://www.youtube.com/watch?v=QIZ9aZD6vs0'
+  //  videoUrl = 'https://www.youtube.com/watch?v=jWuOkeWR3Yc'
 
   apiLoaded = false;
 
-  videoId = 'eIaG5A0IG50';
+  videoId = 'jWuOkeWR3Yc';
 
   height = 200; // Altura inicial
   width = 400;  // Largura inicial
