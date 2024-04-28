@@ -58,7 +58,7 @@
     /* Alterando a cor do texto */
 }
 
-.space50{
+.space50 {
     margin-bottom: 50px;
 }
 
@@ -88,7 +88,7 @@
     text-align: justify;
     font-family: CodePro;
     font-size: 15px;
-    line-height: 2.0; 
+    line-height: 2.0;
 }
 
 /* Classe oriunda do Component Collapsible */
@@ -101,20 +101,53 @@
 .download-button {
     background: linear-gradient(45deg, #ff002c, #eb00b7, #b910f3);
     border: none;
-    color: white; /* Cor do texto do botão */
-    padding: 15px 32px; /* Espaçamento interno (altura x largura) */
-    text-align: center; /* Alinhar texto ao centro */
+    color: white;
+    /* Cor do texto do botão */
+    padding: 15px 32px;
+    /* Espaçamento interno (altura x largura) */
+    text-align: center;
+    /* Alinhar texto ao centro */
     text-decoration: none;
     display: inline-block;
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 16px;
+    /* Tamanho da fonte */
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px; /* Borda arredondada */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra */
-    transition: 0.3s; /* Transição suave ao passar o mouse */
-  }
-  
-  .download-button:hover {
-    background-color: #45a049; /* Mudar cor de fundo ao passar o mouse */
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Mudar sombra ao passar o mouse */
-  }
+    border-radius: 10px;
+    /* Borda arredondada */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    transition: 0.3s;
+    /* Transição suave ao passar o mouse */
+}
+
+.download-button:hover {
+    background-color: #45a049;
+    /* Mudar cor de fundo ao passar o mouse */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* Mudar sombra ao passar o mouse */
+}
+
+.code-container {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    /* Adiciona uma barra de rolagem horizontal caso necessário */
+}
+
+pre {
+    margin: 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+ol {
+    line-height: 1.5;
+    /* Set line-height to 1.5 */
+}
