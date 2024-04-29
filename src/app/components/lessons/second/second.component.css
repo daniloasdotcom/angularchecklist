@@ -1,0 +1,85 @@
+.collapsible {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 30px;
+    background: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    transition: width 0.5s;
+    /* Adiciona uma transição suave para a mudança de largura */
+}
+
+.collapsible button {
+    border: none;
+    padding: 10px 20px;
+    /* Adapte o preenchimento conforme necessário */
+    background: linear-gradient(45deg, #ff002c, #eb00b7, #b910f3);
+    font: inherit;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* Adiciona espaço entre o botão e o conteúdo */
+    width: fit-content;
+    /* Ajusta a largura do botão ao tamanho do conteúdo */
+}
+
+.collapsible-content {
+    max-width: 600px;
+    width: 100%;
+    /* Garante que o conteúdo ocupe toda a largura do contêiner pai */
+}
+
+/* Estilos para dispositivos menores, como smartphones */
+@media screen and (max-width: 768px) {
+    .collapsible {
+        padding: 20px;
+        /* Reduz o preenchimento para dispositivos menores */
+        width: 300px;
+        /* Define a largura para 300px em dispositivos móveis */
+        transition: width 0.5s;
+        /* Adiciona uma transição suave para a mudança de largura */
+    }
+
+    .collapsible button {
+        padding: 8px 16px;
+        /* Reduz o preenchimento do botão para dispositivos menores */
+        font-size: 14px;
+        /* Reduz o tamanho da fonte do botão para dispositivos menores */
+    }
+
+    .collapsible-content {
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+ul {
+    line-height: 1.5;
+    /* Set line-height to 1.5 */
+}
+
+/* Estilos para itens marcados */
+ul li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+.code-container {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-x: auto;
+    /* Adiciona uma barra de rolagem horizontal caso necessário */
+}
+
+pre {
+    margin: 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}

@@ -6,7 +6,7 @@ import { Youtube02Component } from '../youtube02/youtube02.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { CollapsibleComponent } from '../collapsible/collapsible.component';
 import { FooterComponent } from '../footer/footer.component';
-import { SecondComponent } from '../second/second.component';
+import { SecondComponent } from '../lessons/second/second.component';
 
 @Component({
   selector: 'app-home',
