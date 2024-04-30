@@ -63,6 +63,8 @@ ol {
 ul {
     line-height: 1.5;
     /* Set line-height to 1.5 */
+    list-style-type: none;
+    margin: 0;
 }
 
 /* Estilos para itens marcados */
