@@ -5,15 +5,15 @@
 ![Angular](https://img.shields.io/badge/Angular-FF5733?style=for-the-badge&logo=angular&logoColor=white)
 # Angular Way
 
-Welcome to Angular Way, your guide to start in Angular 17 and building stunning web applications with ease! 🚀
+Welcome to Angular Check List, your guide to start in Angular 17 and building stunning web applications with ease! 🚀
 
 ## Overview
 
-Angular Way is a repository dedicated to showcasing the fundamentals of Angular development. Whether you're a novice looking to dive into Angular or an experienced developer seeking to enhance your skills, this project provides a comprehensive resource to guide you through the Angular ecosystem.
+Angular Check List is a repository dedicated to showcasing the fundamentals of Angular development. Whether you're a novice looking to dive into Angular or an experienced developer seeking to enhance your skills, this project provides a comprehensive resource to guide you through the Angular ecosystem.
 
 ## Purpose
 
-The primary goal of Angular Way is twofold:
+The primary goal of Angular Check List is twofold:
 
 1. **Educational Resource**: Explore step-by-step tutorials, code examples, and best practices to understand the core concepts of Angular development.
 
@@ -24,7 +24,7 @@ The primary goal of Angular Way is twofold:
 
 ## Access the Web Application
 
-Visit [Angular Way Web Application](https://daniloasdotcom.github.io/angularway) to see the application live!
+Visit [Angular Check List Web Application](https://daniloasdotcom.github.io/angularway) to see the application live!
 
 ## Creator and maintainer of Angular Way
 
