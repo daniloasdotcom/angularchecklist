@@ -1,10 +1,12 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { youtube02Component } from '../../youtube02/youtube02.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @Component({
   selector: 'app-first',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, youtube02Component, YouTubePlayerModule],
   templateUrl: './first.component.html',
   styleUrl: './first.component.css'
 })

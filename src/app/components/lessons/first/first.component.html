@@ -1,1 +1,57 @@
-<p>first works!</p>
+<div class="collapsible" [ngStyle]="{'width': isMobile ? '300px' : (mostrarConteudo ? '600px' : '300px')}">
+    <ng-content select="[title]"></ng-content>
+    <ng-content select="[subtitle]"></ng-content>
+    <button (click)="toggleConteudo()">Show/Hide</button>
+    <div *ngIf="mostrarConteudo" class="collapsible-content">
+        <ol>
+            <li>
+                <input type="checkbox" id="step1">
+                <label for="step1"><strong>Install Node.js:</strong>
+                    <ul>
+                        <li><input type="checkbox" id="substep1"><label for="substep1">Visit the official Node.js
+                                website at
+                                <a href="https://nodejs.org/en/download">nodejs.org</a>.</label></li>
+                        <li><input type="checkbox" id="substep2"><label for="substep2">Download the recommended version
+                                for your operating system.</label></li>
+                        <li><input type="checkbox" id="substep3"><label for="substep3">Follow the installation
+                                instructions provided by the installer.</label></li>
+                    </ul>
+                </label>
+            </li>
+            <li>
+                <input type="checkbox" id="step2">
+                <label for="step2"><strong>Verify Node.js and npm (Node Package Manager) installation:</strong>
+                    <ul>
+                        <li><input type="checkbox" id="substep1"><label for="substep1">Open the terminal or command
+                                prompt.</label></li>
+                        <li><input type="checkbox" id="substep2"><label for="substep2">Type <code
+                                    class="code-container">node -v</code> and press Enter to check the Node.js
+                                version.</label></li>
+                        <li><input type="checkbox" id="substep3"><label for="substep3">Type <code
+                                    class="code-container">npm -v</code> and press Enter to check the npm
+                                version.</label></li>
+                        <li><input type="checkbox" id="substep4"><label for="substep4">Ensure both display version
+                                numbers, confirming a successful installation.</label></li>
+                    </ul>
+                </label>
+            </li>
+            <li>
+                <input type="checkbox" id="step3">
+                <label for="step3"><strong>Install Angular CLI using npm:</strong>
+                    <ul>
+                        <li><input type="checkbox" id="substep1"><label for="substep1">In the terminal or command
+                                prompt, type the following command and press <em>Enter:</em></label></li>
+                        <code class="code-container">npm install -g &#64;angular/cli</code>
+                        <li><input type="checkbox" id="substep2"><label for="substep2">This will install Angular CLI
+                                globally on your system.</label></li>
+                        <li><input type="checkbox" id="substep3"><label for="substep3">Wait until the installation
+                                process is complete.</label></li>
+                    </ul>
+                </label>
+            </li>
+        </ol>
+        <div class="collapsible-video">
+            <app-youtube02></app-youtube02>
+        </div>
+    </div>
+</div>

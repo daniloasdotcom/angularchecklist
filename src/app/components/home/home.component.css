@@ -91,13 +91,6 @@
     line-height: 2.0;
 }
 
-/* Classe oriunda do Component Collapsible */
-.collapsible-video {
-    align-items: center;
-    margin: 0 auto;
-}
-
-
 .download-button {
     background: linear-gradient(45deg, #ff002c, #eb00b7, #b910f3);
     border: none;
@@ -126,32 +119,4 @@
     /* Mudar cor de fundo ao passar o mouse */
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     /* Mudar sombra ao passar o mouse */
-}
-
-ol {
-    line-height: 1.5;
-    /* Set line-height to 1.5 */
-}
-
-ul {
-    line-height: 1.5;
-    /* Set line-height to 1.5 */
-}
-.code-container {
-    background-color: #f4f4f4;
-    padding: 5px;
-    border-radius: 5px;
-    overflow-x: auto;
-    /* Adiciona uma barra de rolagem horizontal caso necessário */
-}
-
-pre {
-    margin: 0;
-}
-
-code {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    color: #333;
-    text-align: left;
 }

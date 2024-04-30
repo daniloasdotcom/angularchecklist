@@ -8,7 +8,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
   templateUrl: './youtube02.component.html',
   styleUrl: './youtube02.component.css'
 })
-export class Youtube02Component {
+export class youtube02Component {
   //  videoUrl = 'https://www.youtube.com/watch?v=3a3157z68yA'
 
   apiLoaded = false;

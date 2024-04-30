@@ -55,13 +55,17 @@
     }
 }
 
+.collapsible-video {
+    align-items: center;
+    margin: 0 auto;
+}
+
 ul {
     line-height: 1.5;
     /* Set line-height to 1.5 */
 }
 
-/* Estilos para itens marcados */
-ul li input[type="checkbox"]:checked + label {
+li input[type="checkbox"]:checked + label {
     text-decoration: line-through;
 }
 
