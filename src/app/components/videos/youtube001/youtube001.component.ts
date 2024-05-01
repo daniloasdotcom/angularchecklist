@@ -2,13 +2,13 @@ import { Component, HostListener } from '@angular/core';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @Component({
-  selector: 'app-youtube02',
+  selector: 'app-youtube001',
   standalone: true,
   imports: [YouTubePlayerModule],
-  templateUrl: './youtube02.component.html',
-  styleUrl: './youtube02.component.css'
+  templateUrl: './youtube001.component.html',
+  styleUrl: './youtube001.component.css'
 })
-export class youtube02Component {
+export class Youtube001Component {
   //  videoUrl = 'https://www.youtube.com/watch?v=3a3157z68yA'
 
   apiLoaded = false;

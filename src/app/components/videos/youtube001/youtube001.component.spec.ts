@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { youtube02Component } from './youtube02.component';
+import { Youtube001Component } from './youtube001.component';
 
-describe('Youtube02Component', () => {
-  let component: youtube02Component;
-  let fixture: ComponentFixture<youtube02Component>;
+describe('Youtube001Component', () => {
+  let component: Youtube001Component;
+  let fixture: ComponentFixture<Youtube001Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [youtube02Component]
+      imports: [Youtube001Component]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(youtube02Component);
+    fixture = TestBed.createComponent(Youtube001Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
