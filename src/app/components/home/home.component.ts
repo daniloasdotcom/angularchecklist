@@ -5,11 +5,13 @@ import { VideoComponent } from '../video/video.component';
 import { FooterComponent } from '../footer/footer.component';
 import { SecondComponent } from '../lessons/second/second.component';
 import { FirstComponent } from '../lessons/first/first.component';
+import { ThirdComponent } from '../lessons/third/third.component';
+import { CopybleComponent } from '../copyble/copyble.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, NgOptimizedImage, VideoComponent, FooterComponent,FirstComponent, SecondComponent],
+  imports: [HeaderComponent, NgOptimizedImage, VideoComponent, FooterComponent,FirstComponent, SecondComponent, ThirdComponent, CopybleComponent],
   providers: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

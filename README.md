@@ -24,9 +24,9 @@ The primary goal of Angular Check List is twofold:
 
 ## Access the Web Application
 
-Visit [Angular Check List Web Application](https://daniloasdotcom.github.io/angularway) to see the application live!
+Visit [Angular Check List Web Application](https://daniloasdotcom.github.io/angularchecklist) to see the application live!
 
-## Creator and maintainer of Angular Way
+## Creator and maintainer of Angular Check List
 
 - [daniloas.com](https://daniloas.com/)
 

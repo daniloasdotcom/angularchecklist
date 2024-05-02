@@ -34,7 +34,9 @@
                         <label for="step4">Then click on <em>New Terminal</em></label>
                     </li>
                     <li><input type="checkbox" id="step5"><label for="step5">In the terminal, type:</label></li>
-                    <p><code class="code-container">ng new project_name</code></p>
+                    <app-copyble>
+                        <p>ng new project_name</p>
+                    </app-copyble>
                     <li>
                         <input type="checkbox" id="step7">
                         <label for="step7">Press <em>Enter</em></label>
@@ -59,10 +61,13 @@
                     </li>
                     <p>A second question will be asked</p>
                     <p><code class="code-container">
-                        ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (G/Prerendering)?
-                    </code></p>
+                            ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (G/Prerendering)?
+                        </code></p>
                     <p>
-                        The choice between SSR and SSG/Prerendering depends on the specific needs of your project. If you require better search engine indexing and faster initial loading times, SSR may be the best option. On the other hand, if your application is primarily static and doesn't need dynamic server data, SSG/Prerendering may be more suitable.
+                        The choice between SSR and SSG/Prerendering depends on the specific needs of your project. If
+                        you require better search engine indexing and faster initial loading times, SSR may be the best
+                        option. On the other hand, if your application is primarily static and doesn't need dynamic
+                        server data, SSG/Prerendering may be more suitable.
                     </p>
                     <li>
                         <input type="checkbox" id="step12">
@@ -75,7 +80,6 @@
                     </li>
                 </ul>
             </li>
-
             <li>
                 <input type="checkbox" id="step3">
                 <label for="step3"><strong>Run your project</strong></label>
@@ -83,20 +87,25 @@
                     <li><input type="checkbox" id="step14"><label for="step14">After the project creation is completed,
                             type
                             in the terminal:</label></li>
-                    <p><code class="code-container">cd project_name</code></p>
+                    <app-copyble>
+                        <p>cd project_name</p>
+                    </app-copyble>
                     <p>
                         Now you are inside your Angular project directory
                     </p>
                     <li><input type="checkbox" id="step17"><label for="step17">To run your first project, type on the
                             terminal:</label></li>
-                    <p><code class="code-container">ng serve</code></p>
+                    <app-copyble>
+                        <p>ng serve</p>
+                    </app-copyble>
                     <p>The Angular CLI will provide a local
                         development server allowing you to view your project in the
                         browser and automatically refresh when changes occur in the files.
                     </p>
-                    <p>By default, Angular CLI will provide the server <code class="code-container">http://localhost:4200/</code>
+                    <p>By default, Angular CLI will provide the server <code
+                            class="code-container">http://localhost:4200/</code>
                     </p>
-                    
+
                 </ul>
             </li>
         </ol>
