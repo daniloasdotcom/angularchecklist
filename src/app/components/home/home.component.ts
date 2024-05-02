@@ -7,11 +7,12 @@ import { SecondComponent } from '../lessons/second/second.component';
 import { FirstComponent } from '../lessons/first/first.component';
 import { ThirdComponent } from '../lessons/third/third.component';
 import { CopybleComponent } from '../copyble/copyble.component';
+import { FouthComponent } from '../lessons/fouth/fouth.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, NgOptimizedImage, VideoComponent, FooterComponent,FirstComponent, SecondComponent, ThirdComponent, CopybleComponent],
+  imports: [HeaderComponent, NgOptimizedImage, VideoComponent, FooterComponent,FirstComponent, SecondComponent, ThirdComponent, FouthComponent, CopybleComponent],
   providers: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

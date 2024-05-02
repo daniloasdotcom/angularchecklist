@@ -1,5 +1,4 @@
 .collapsible {
-    cursor: pointer;
     border: 1px solid black;
     padding: 30px;
     background: #e9e9e9;
@@ -10,6 +9,7 @@
     /* Centraliza os itens horizontalmente */
     transition: width 0.5s;
     /* Adiciona uma transição suave para a mudança de largura */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
 }
 
 .collapsible button {
@@ -40,6 +40,7 @@
         /* Define a largura para 300px em dispositivos móveis */
         transition: width 0.5s;
         /* Adiciona uma transição suave para a mudança de largura */
+        border-radius: 10px; /* Adiciona bordas arredondadas */
     }
 
     .collapsible button {
