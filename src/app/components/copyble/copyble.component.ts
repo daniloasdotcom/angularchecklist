@@ -23,7 +23,7 @@ export class CopybleComponent {
         selection.addRange(range);
         document.execCommand('copy');
         selection.removeAllRanges();
-        alert('Código copiado!');
+        alert('Code copied!');
       }
     } else {
       console.error('window.getSelection não está disponível neste navegador.');
