@@ -1,0 +1,62 @@
+<p>fifth works!</p>
+<div class="collapsible" [ngStyle]="{'width': isMobile ? '300px' : (mostrarConteudo ? '600px' : '300px')}">
+    <ng-content select="[title]"></ng-content>
+    <ng-content select="[subtitle]"></ng-content>
+    <button (click)="toggleConteudo()">Show/Hide</button>
+    <div *ngIf="mostrarConteudo" class="collapsible-content">
+        <ng-content select="[text]"></ng-content>
+        <ol>
+            <li>
+                <input type="checkbox" id="step1">
+                <label for="step1"><strong>Edit the html file</strong></label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="substep1"><label for="substep1">Erase the html code in the
+                            app.component.html file, let only the line</label>
+                    </li>
+                    <app-copyble>
+                        <p>&lt;router-outlet/&gt;</p>
+                    </app-copyble>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="step2">
+                <label for="step2"><strong>Edit app.routes.ts file</strong></label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="substep1"><label for="substep1">Edit your app.routes.ts file like
+                            below</label>
+                    </li>
+                    <app-copyble>
+                        <pre>import &#123; Routes &#125; from '&#64;angular/router';</pre>
+                        <pre>import &#123; HomeComponent &#125; from './components/home/home.component';</pre>
+                        <pre><p></p></pre>
+                        <pre>export const routes: Routes = [</pre>
+                        <pre>     &#123;</pre>
+                        <pre>        path: "",</pre>
+                        <pre>        component: HomeComponent</pre>
+                        <pre>     &#125;</pre>
+                        <pre>];</pre>
+                    </app-copyble>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="step2">
+                <label for="step2"><strong>Remember: to run your application</strong></label>
+                <ul>
+                    <li><input type="checkbox" id="step17"><label for="step17">To run your application, type on the terminal:</label></li>
+                    <app-copyble>
+                        <p>ng serve</p>
+                    </app-copyble>
+                    <p>The Angular CLI will provide a local
+                        development server allowing you to view your project in the
+                        browser and automatically refresh when changes occur in the files.
+                    </p>
+                    <p>By default, Angular CLI will provide the server <code
+                            class="code-container">http://localhost:4200/</code>
+                    </p>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</div>
