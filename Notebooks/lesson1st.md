@@ -23,4 +23,6 @@
 
 To further assist you, here's a video tutorial:
 
-[![Watch the video](https://img.youtube.com/vi/3a3157z68yA/sddefault.jpg)](https://youtu.be/3a3157z68yA)
+<a href="https://youtu.be/3a3157z68yA">
+    <img src="https://img.youtube.com/vi/3a3157z68yA/maxresdefault.jpg" alt="Watch the video" style="width:600px;"/>
+</a>
