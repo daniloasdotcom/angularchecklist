@@ -1,34 +1,24 @@
-## fifth works!
+## Show/Hide Content
 
-### Show/Hide Content
+1. **Install Node.js:**
+    - Visit the official Node.js website at [nodejs.org](https://nodejs.org/en/download).
+    - Download the recommended version for your operating system.
+    - Follow the installation instructions provided by the installer.
 
-- **Edit the html file**
-    - Erase the html code in the `app.component.html` file, let only the line:
-        ```html
-        <router-outlet/>
-        ```
+2. **Verify Node.js and npm (Node Package Manager) installation:**
+    - Open the terminal or command prompt.
+    - Type `node -v` and press Enter to check the Node.js version.
+    - Type `npm -v` and press Enter to check the npm version.
+    - Ensure both display version numbers, confirming a successful installation.
 
-- **Edit `app.routes.ts` file**
-    - Edit your `app.routes.ts` file like below:
-        ```typescript
-        import { Routes } from '@angular/router';
-        import { HomeComponent } from './components/home/home.component';
-
-        export const routes: Routes = [
-            {
-                path: "",
-                component: HomeComponent
-            }
-        ];
-        ```
-
-- **Remember: to run your application**
-    - To run your application, type on the terminal:
+3. **Install Angular CLI using npm:**
+    - In the terminal or command prompt, type the following command and press *Enter:*
         ```sh
-        ng serve
+        npm install -g @angular/cli
         ```
-    - The Angular CLI will provide a local development server allowing you to view your project in the browser and automatically refresh when changes occur in the files.
-    - By default, Angular CLI will provide the server:
-        ```
-        http://localhost:4200/
-        ```
+    - This will install Angular CLI globally on your system.
+    - Wait until the installation process is complete.
+
+### Video
+
+To further assist you, here's a video tutorial:
