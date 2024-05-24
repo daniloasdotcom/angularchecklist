@@ -1,5 +1,3 @@
-## Show/Hide Content
-
 1. **Install Node.js:**
     - Visit the official Node.js website at [nodejs.org](https://nodejs.org/en/download).
     - Download the recommended version for your operating system.
@@ -22,3 +20,5 @@
 ### Video
 
 To further assist you, here's a video tutorial:
+
+[Watch the video tutorial](https://www.youtube.com/watch?v=3a3157z68yA)
