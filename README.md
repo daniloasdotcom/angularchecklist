@@ -3,9 +3,15 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-FF5733?style=for-the-badge&logo=angular&logoColor=white)
+
 # Angular Way
 
-Welcome to Angular Check List, your guide to start in Angular 17 and building stunning web applications with ease! 🚀
+Welcome to Angular Check List, your guide to getting started with Angular 17 and building stunning web applications with ease! 🚀
+
+## Notebooks
+
+- [English](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/English/lesson1st.md)
+- [Português](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Português/lesson1st.md)
 
 ## Overview
 
@@ -26,7 +32,7 @@ The primary goal of Angular Check List is twofold:
 
 Visit [Angular Check List Web Application](https://daniloasdotcom.github.io/angularchecklist) to see the application live!
 
-## Creator and maintainer of Angular Check List
+## Creator and Maintainer of Angular Check List
 
 - [daniloas.com](https://daniloas.com/)
 
