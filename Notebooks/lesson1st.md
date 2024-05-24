@@ -1,4 +1,4 @@
-## Show/Hide Content
+## Install Angular
 
 1. **Install Node.js:**
     - Visit the official Node.js website at [nodejs.org](https://nodejs.org/en/download).
