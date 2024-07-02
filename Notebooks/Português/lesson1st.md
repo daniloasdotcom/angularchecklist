@@ -1,4 +1,4 @@
-<a href="[https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Portugu%C3%AAs/pot_notebook.md)"><button>SUMÁRIO</button></a>
+<a href="https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Portugu%C3%AAs/pot_notebook.md"><button>SUMÁRIO</button></a>
 
 ## Instalar Angular
 
