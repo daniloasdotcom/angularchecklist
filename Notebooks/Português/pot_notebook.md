@@ -2,10 +2,10 @@
 
 ## Tópicos
 
-1. [Introdução](./docs/Introducao.md)
+1. [Instalar o Angular](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Português/lesson1st.md)
 
 ## Detalhes dos Tópicos
 
-### 1. [Introdução](./docs/Introducao.md)
-Neste documento, você encontrará uma visão geral do projeto, incluindo o propósito e os objetivos principais.
+### 1. [Instalar o Angular](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Português/lesson1st.md)
+Aprenda aqui os passos para instalação do Angular na sua máquina
 ---

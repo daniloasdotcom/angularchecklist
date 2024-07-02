@@ -11,7 +11,7 @@ Welcome to Angular Check List, your guide to getting started with Angular 17 and
 ## Notebooks
 
 - [English](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/English/lesson1st.md)
-- [Português](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Português/lesson1st.md)
+- [Português](https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Portugu%C3%AAs/pot_notebook.md)
 
 ## Overview
 
