@@ -53,6 +53,6 @@
 
 To assist you further, here is a tutorial video:
 
-<a href="https://youtu.be/3a3157z68yA">
-    <img src="https://img.youtube.com/vi/3a3157z68yA/maxresdefault.jpg" alt="Watch the video" style="width:600px;"/>
+<a href="https://youtu.be/9H6B4Nz75Rc">
+    <img src="https://img.youtube.com/vi/9H6B4Nz75Rc/maxresdefault.jpg" alt="Watch the video" style="width:600px;"/>
 </a>
