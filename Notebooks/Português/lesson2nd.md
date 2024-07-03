@@ -1,6 +1,6 @@
 <a href="https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/Portugu%C3%AAs/pot_notebook.md"><button>SUMÁRIO</button></a>
 
-## Instalar Angular
+## Criar e rodar um projeto
 
 1. **Indique ao seu IDE o diretório para armazenar seu projeto:**
     - Abra seu IDE.
@@ -53,6 +53,6 @@
 
 Para auxiliá-lo ainda mais, aqui está um tutorial em vídeo:
 
-<a href="https://youtu.be/3a3157z68yA">
-    <img src="https://img.youtube.com/vi/3a3157z68yA/maxresdefault.jpg" alt="Assista ao vídeo" style="width:600px;"/>
+<a href="https://youtu.be/9H6B4Nz75Rc">
+    <img src="https://img.youtube.com/vi/9H6B4Nz75Rc/maxresdefault.jpg" alt="Assista ao vídeo" style="width:600px;"/>
 </a>

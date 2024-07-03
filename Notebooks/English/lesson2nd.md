@@ -1,6 +1,6 @@
 <a href="https://github.com/daniloasdotcom/angularchecklist/blob/main/Notebooks/English/eng_notebook.md"><button>SUMMARY</button></a>
 
-## Install Angular
+## Create and Run a Project
 
 1. **Indicate to your IDE the directory to store your project:**
     - Open your IDE.
